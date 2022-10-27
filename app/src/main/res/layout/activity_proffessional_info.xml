@@ -24,8 +24,10 @@
         android:id="@+id/textView10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:text="Current Company" />
+        android:layout_marginTop="12dp"
+        android:text="Current Company"
+        android:textColor="#0C0909"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/current_company_txt"
@@ -40,7 +42,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        android:text="Total Experience" />
+        android:text="Total Experience"
+        android:textColor="#0C0909"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/total_experience_txt"
@@ -55,7 +59,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        android:text="Designation" />
+        android:text="Designation"
+        android:textColor="#0C0909"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/designation_txt"
@@ -78,7 +84,9 @@
             android:layout_marginRight="30dp"
             android:layout_weight="1"
             android:backgroundTint="#989191"
-            android:text="back" />
+            android:inputType="textCapSentences"
+            android:text="Back"
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/next_btn"
@@ -86,7 +94,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_weight="1"
-            android:text="next" />
+            android:inputType="textCapSentences"
+            android:text="Next"
+            android:textSize="16sp" />
     </LinearLayout>
 
 </LinearLayout>

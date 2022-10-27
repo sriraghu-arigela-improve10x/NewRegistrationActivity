@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Birth Details"
+        android:text="BIRTH DETAILS"
         android:textColor="#090606"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -22,7 +22,9 @@
         android:id="@+id/textView32"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:text="Date Of Birth"
+        android:textColor="#0C0909"
         android:textSize="16sp" />
 
     <EditText
@@ -37,6 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Place Of Birth"
+        android:textColor="#0C0909"
         android:textSize="16sp" />
 
     <EditText
@@ -59,7 +62,9 @@
             android:layout_marginRight="32dp"
             android:layout_weight="1"
             android:backgroundTint="#989191"
-            android:text="back" />
+            android:inputType="textCapSentences"
+            android:text="Back"
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/next_btn"
@@ -67,6 +72,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="32dp"
             android:layout_weight="1"
-            android:text="next" />
+            android:inputType="textCapSentences"
+            android:text="Next"
+            android:textSize="16sp" />
     </LinearLayout>
 </LinearLayout>

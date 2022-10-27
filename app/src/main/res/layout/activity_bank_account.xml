@@ -24,9 +24,10 @@
         android:id="@+id/textView15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="12dp"
         android:layout_weight="1"
         android:text="Bank Name"
+        android:textColor="#0C0909"
         android:textSize="16sp" />
 
     <EditText
@@ -45,6 +46,7 @@
         android:layout_marginTop="6dp"
         android:layout_weight="1"
         android:text="Account Holder Name"
+        android:textColor="#0C0909"
         android:textSize="16sp" />
 
     <EditText
@@ -63,6 +65,7 @@
         android:layout_marginTop="6dp"
         android:layout_weight="1"
         android:text="Account Number"
+        android:textColor="#0C0909"
         android:textSize="16sp" />
 
     <EditText
@@ -81,6 +84,7 @@
         android:layout_marginTop="6dp"
         android:layout_weight="1"
         android:text="IFSC Code"
+        android:textColor="#0C0909"
         android:textSize="16sp" />
 
     <EditText
@@ -106,7 +110,9 @@
             android:layout_marginRight="32dp"
             android:layout_weight="1"
             android:backgroundTint="#989191"
-            android:text="back" />
+            android:inputType="textCapSentences"
+            android:text="Back"
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/next_btn"
@@ -114,6 +120,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="32dp"
             android:layout_weight="1"
-            android:text="next" />
+            android:inputType="textCapSentences"
+            android:text="Next"
+            android:textSize="16sp" />
     </LinearLayout>
 </LinearLayout>

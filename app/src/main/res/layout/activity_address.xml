@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#989191"
     android:orientation="vertical"
     android:padding="12dp"
     tools:context=".AddressActivity">
@@ -13,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Address"
+        android:text="ADDRESS"
         android:textColor="#0E0A0A"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -22,7 +23,10 @@
         android:id="@+id/textView25"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="H.NO / Apartment" />
+        android:layout_marginTop="12dp"
+        android:text="H.NO / Apartment"
+        android:textColor="#0C0909"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/house_number_txt"
@@ -35,7 +39,9 @@
         android:id="@+id/textView27"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Street" />
+        android:text="Street"
+        android:textColor="#0C0909"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/street_txt"
@@ -48,7 +54,9 @@
         android:id="@+id/textView28"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="City" />
+        android:text="City"
+        android:textColor="#0C0909"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/city_txt"
@@ -61,7 +69,9 @@
         android:id="@+id/textView29"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="State" />
+        android:text="State"
+        android:textColor="#0C0909"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/state_txt"
@@ -74,7 +84,9 @@
         android:id="@+id/textView30"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Country" />
+        android:text="Country"
+        android:textColor="#0C0909"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/country_txt"
@@ -86,7 +98,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="32dp"
+        android:layout_marginTop="24dp"
         android:orientation="horizontal">
 
         <Button
@@ -96,7 +108,9 @@
             android:layout_marginRight="32dp"
             android:layout_weight="1"
             android:backgroundTint="#989191"
-            android:text="back" />
+            android:inputType="textCapSentences"
+            android:text="Back"
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/next_btn"
@@ -104,6 +118,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="32dp"
             android:layout_weight="1"
-            android:text="next" />
+            android:inputType="textCapSentences"
+            android:text="Next"
+            android:textSize="16sp" />
     </LinearLayout>
+
 </LinearLayout>
